@@ -1,8 +1,10 @@
 const { log } = require("console");
 const http = require("http");
+
 //req = request  -> peticion del cliente
 //res = response -> respuesta del servidor
 //cliente = navegador
+
 const server = http.createServer((request, response) => {
   console.log("Un cliente se a conectado");
 
